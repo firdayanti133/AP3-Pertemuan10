@@ -17,16 +17,6 @@ Aplikasi web untuk mencatat film favorit menggunakan Node.js dan Express.js.
 - `PUT /movies/:id` – Ubah data film
 - `DELETE /movies/:id` – Hapus film
 
-## Contoh Payload POST/PUT
-
-```json
-{
-	"title": "Inception",
-	"description": "Mimpi dalam mimpi",
-	"genre": "Sci-Fi"
-}
-```
-
 ## Dokumentasi API
 
 ### Menampilkan Laman Utama
