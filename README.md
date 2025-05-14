@@ -61,7 +61,14 @@ Aplikasi web untuk mencatat film favorit menggunakan Node.js dan Express.js.
 - `Query Params: `
 - `URL Params: `
 - `Body Type: application/json`
-- `Body: {title: string, description: string, genre: string}`
+- `Body:`
+```json
+{
+	"title": "string",
+	"description": "string",
+	"genre": "string"
+}
+```
 
 ### Memperbarui Data Film Berdasarkan Id Data
 
@@ -70,7 +77,14 @@ Aplikasi web untuk mencatat film favorit menggunakan Node.js dan Express.js.
 - `Query Params: `
 - `URL Params: id: number`
 - `Body Type: application/json`
-- `Body: {title: string, description: string, genre: string}`
+- `Body:`
+```json
+{
+	"title": "string",
+	"description": "string",
+	"genre": "string"
+}
+```
 
 ### Menghapus Data Film Berdasarkan Id Data
 
